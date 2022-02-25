@@ -23,6 +23,130 @@
       </div>
     </div>
 
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+      </div>
+    </header>
+
+    <a id="friends-diplay__link">
+      <i class="fa-solid fa-circle-exclamation"></i> Friends' Names Display
+      <i class="fa-solid fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="screenshot/KakaoTalk_20220223_214247198.jpg"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">ZZangtae</h4>
+            <!--<h6 class="user-component__subtitle">
+              ZZangtae!! What are you doing!?
+            </h6> -->
+          </div>
+        </div>
+
+        <div class="user-component__column"></div>
+      </div>
+
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Channel</span>
+          <i class="fa-solid fa-chevron-up"></i>
+        </div>
+      </div>
+      <!--channel-->
+      <div class="user-component channel--list">
+        <a href="https://www.youtube.com/">
+          <div class="user-component__column">
+            <img
+              src="screenshot/youtube.png"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not">
+                Channel
+              </h4>
+              <!-- <h6 class="user-component__subtitle">text</h6> -->
+            </div>
+          </div></a
+        >
+        <div class="channel--num">
+          <span>2</span>
+          <i class="fa-solid fa-chevron-right fa-xs"></i>
+        </div>
+      </div>
+      <!--ZZonddeok-->
+      <div class="user-component channel--list">
+        <a href="https://www.youtube.com/c/%EA%B9%80%EC%AB%80%EB%96%A1">
+          <div class="user-component__column">
+            <img
+              src="screenshot/ZZ.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not">
+                Kimzzonddeok
+              </h4>
+              <!-- <h6 class="user-component__subtitle">text</h6> -->
+            </div>
+          </div></a
+        >
+        <div class="channel--num">
+          <span>4</span>
+          <i class="fa-solid fa-chevron-right fa-xs"></i>
+        </div>
+      </div>
+      <!--cream-->
+      <div class="user-component channel--list">
+        <a href="https://www.youtube.com/channel/UCkuA_gDjISfGgbdp02BUwyQ">
+          <div class="user-component__column">
+            <img
+              src="screenshot/dd.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not">
+                Clair
+              </h4>
+              <!-- <h6 class="user-component__subtitle">text</h6> -->
+            </div>
+          </div></a
+        >
+        <div class="channel--num">
+          <span>3</span>
+          <i class="fa-solid fa-chevron-right fa-xs"></i>
+        </div>
+      </div>
+      <!--chobby-->
+      <div class="user-component channel--list">
+        <a href="https://www.youtube.com/c/CatTree">
+          <div class="user-component__column">
+            <img
+              src="screenshot/chobee.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not">
+                Chobee
+              </h4>
+              <!-- <h6 class="user-component__subtitle">text</h6> -->
+            </div>
+          </div></a
+        >
+        <div class="channel--num">
+          <span>1</span>
+          <i class="fa-solid fa-chevron-right fa-xs"></i>
+        </div>
+      </div>
+    </main>
+
     <nav class="nav">
       <ul class="nav__ul">
         <li class="nav__li">
@@ -32,7 +156,7 @@
         </li>
 
         <li class="nav__li">
-          <a class="nav__a" href="#">
+          <a class="nav__a" href="chats.html">
             <span class="nav__s">1</span>
             <!--span은 높이와 넓이를 가질 수 없다 그래서 block으로 바꿔야 한다.-->
             <i class="far fa-comment fa-2x"></i>

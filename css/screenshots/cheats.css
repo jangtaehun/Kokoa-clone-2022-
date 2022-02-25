@@ -1,0 +1,11 @@
+.user-component__column:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user-component__column:nth-child(2) span {
+  margin: 5px 0px;
+}
+.chats-list {
+  margin-bottom: 20px;
+}

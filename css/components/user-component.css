@@ -1,0 +1,62 @@
+.user-component {
+  justify-content: space-between;
+}
+.user-component,
+.user-component__column {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.user-component__title {
+  font-weight: 600;
+  font-size: 20px;
+}
+.user-component__subtitle {
+  margin-top: 8px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 17px;
+}
+.user-component__avatar--xl {
+  height: 80px;
+  width: 80px;
+}
+.user-component__avatar--sm {
+  height: 60px;
+  width: 60px;
+  border-radius: 25px;
+}
+.user-component__avatar--sm:hover {
+  transform: translateX(20px) scale(2);
+}
+.user-component__title--not {
+  font-weight: 400;
+}
+
+.channel--num {
+  color: rgba(0, 0, 0, 0.5);
+}
+.channel--list {
+  margin-bottom: 20px;
+}
+.channel--num:hover {
+  animation: friends-num 2s infinite ease-in-out;
+  cursor: grabbing;
+}
+
+@keyframes friends-num {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
