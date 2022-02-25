@@ -7,6 +7,6 @@
   font-weight: 600;
 }
 
-.screen-header__icons span {
-  padding: var(--horizontal-space);
+.screen-header__icons span:not(.nav__ss) {
+  padding: 0px 10px;
 }

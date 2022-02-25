@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - ZZonDDeok World</title>
+    <title>Chats - ZZonDDeok World</title>
   </head>
   <body>
     <div class="status-bar">
@@ -24,9 +24,13 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
+        <span
+          ><i class="fa-regular fa-comment fa-lg"></i
+          ><i class="fa-regular fa-plus screen-header__icons-plus"></i
+        ></span>
         <span><i class="fa-solid fa-music fa-lg"></i></span>
         <span><i class="fa-solid fa-gear fa-lg"></i></span>
       </div>
@@ -37,7 +41,7 @@
         <div class="user-component__column">
           <img
             src="screenshot/예쁜떡.jpg"
-            class="user-component__avatar user-component__avatar--xl"
+            class="user-component__avatar user-component__avatar"
           />
           <div class="user-component__text">
             <h4 class="user-component__title">ZZonDDeok</h4>
@@ -49,7 +53,7 @@
 
         <div class="user-component__column">
           <span>13:35</span>
-          <span>3</span>
+          <span class="user-component__column__scale">3</span>
         </div>
       </div>
 
@@ -57,7 +61,7 @@
         <div class="user-component__column">
           <img
             src="screenshot/예쁜떡.jpg"
-            class="user-component__avatar user-component__avatar--xl"
+            class="user-component__avatar user-component__avatar"
           />
           <div class="user-component__text">
             <h4 class="user-component__title">Chobee</h4>
@@ -69,7 +73,7 @@
 
         <div class="user-component__column">
           <span>13:35</span>
-          <span>3</span>
+          <span class="user-component__column__scale">3</span>
         </div>
       </div>
 
@@ -77,7 +81,7 @@
         <div class="user-component__column">
           <img
             src="screenshot/예쁜떡.jpg"
-            class="user-component__avatar user-component__avatar--xl"
+            class="user-component__avatar user-component__avatar"
           />
           <div class="user-component__text">
             <h4 class="user-component__title">Clair</h4>
@@ -89,7 +93,7 @@
 
         <div class="user-component__column">
           <span>13:35</span>
-          <span>3</span>
+          <span class="user-component__column__scale">3</span>
         </div>
       </div>
     </main>
@@ -98,7 +102,7 @@
       <ul class="nav__ul">
         <li class="nav__li">
           <a class="nav__a" href="friends.html"
-            ><i class="fas fa-user fa-2x"></i
+            ><i class="far fa-user fa-2x"></i
           ></a>
         </li>
 
@@ -106,12 +110,14 @@
           <a class="nav__a" href="#">
             <span class="nav__s">1</span>
             <!--span은 높이와 넓이를 가질 수 없다 그래서 block으로 바꿔야 한다.-->
-            <i class="far fa-comment fa-2x"></i>
+            <i class="fas fa-comment fa-2x"></i>
           </a>
         </li>
 
         <li class="nav__li">
-          <a class="nav__a" href="#"><i class="fas fa-search fa-2x"></i></a>
+          <a class="nav__a" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
         </li>
 
         <li class="nav__li">

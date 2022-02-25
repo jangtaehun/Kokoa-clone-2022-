@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats - ZZonDDeok World</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+
+      <div class="status-bar__column">13:40</div>
+
+      <div class="status-bar__column">
+        <span>89%</span>
+        <i class="fas fa-battery-half"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-sm"></i></span>
+        <span
+          ><i class="fa-solid fa-gear fa-sm"></i>
+          <span class="nav__ss badge"></span
+        ></span>
+      </div>
+    </header>
+
+    <main class="friends-screen">
+      <div class="find__icons">
+        <div class="find_icons-icon">
+          <i class="fa-solid fa-qrcode fa-3x"></i><span>QR Code</span>
+        </div>
+        <div class="find_icons-icon">
+          <i class="fa-solid fa-address-book fa-3x"></i
+          ><span>Add by Contacts</span>
+        </div>
+        <div class="find_icons-icon">
+          <i class="fa-solid fa-fingerprint fa-3x"></i><span>Add by ID</span>
+        </div>
+        <div class="find_icons-icon">
+          <i class="fa-regular fa-envelope fa-3x"></i><span>Invite</span>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__li">
+          <a class="nav__a" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+
+        <li class="nav__li">
+          <a class="nav__a" href="chats.html">
+            <span class="nav__s">1</span>
+            <!--span은 높이와 넓이를 가질 수 없다 그래서 block으로 바꿔야 한다.-->
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+
+        <li class="nav__li">
+          <a class="nav__a" href="#"><i class="fas fa-search fa-2x"></i></a>
+        </li>
+
+        <li class="nav__li">
+          <a class="nav__a" href="#">
+            <span class="nav__ss"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <script
+      src="https://kit.fontawesome.com/bc619c2e1b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

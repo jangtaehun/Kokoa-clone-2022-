@@ -7,6 +7,7 @@
   padding: 10px 0px;
   font-size: 16px;
   margin-bottom: 15px;
+  margin-top: -15px;
 }
 
 #friends-diplay__link i {
@@ -14,7 +15,7 @@
   margin: 8px;
 }
 .friends-screen {
-  padding: 0px var(--horizontal-space);
+  padding: 15px var(--horizontal-space);
 }
 .friends-screen__channel {
   margin-top: 25px;
@@ -26,4 +27,9 @@
   display: flex;
   justify-content: space-between;
   color: rgba(0, 0, 0, 0.5);
+}
+.user-component__column__friends {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
