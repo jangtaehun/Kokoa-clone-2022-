@@ -10,8 +10,6 @@
 .user-component__column:last-child span {
   margin: 5px 0px;
 }
-.chats-list {
-}
 .user-component__column__scale {
   height: 15px;
   width: 15px;
@@ -22,7 +20,7 @@
   padding: 3px;
   color: white;
   background-color: red;
-  animation: user-component__column__scale-last 5s infinite ease-in-out;
+  animation: user-component__column__scale-last 2s infinite ease-in-out;
 }
 
 @keyframes user-component__column__scale-last {

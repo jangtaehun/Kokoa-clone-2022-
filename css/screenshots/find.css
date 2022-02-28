@@ -1,13 +1,115 @@
-.find__icons {
+.recommended-friends {
+  border-bottom: var(--main-border);
+  border-top: var(--main-border);
+  padding: 25px 0px;
+}
+.recommended-friends__tittle {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.open-chat__header {
   display: flex;
   justify-content: space-between;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  margin-top: var(--horizontal-space);
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+  font-size: 15px;
 }
-.find_icons-icon {
+.open-chat__header span {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 15px;
+}
+.opne-post {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.open-post__title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+.open-post__tag {
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-bottom: 7px;
+}
+.member {
+  display: flex;
   align-items: center;
 }
-.find_icons-icon i {
-  margin-bottom: 20px;
+.member img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.open-post__column {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.open-post__member {
+  margin: 0px 7px 0px 7px;
+  opacity: 0.6;
+}
+.member .divider {
+  width: 1px;
+  height: 15px;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-right: 7px;
+}
+.active {
+  color: #ffb0e0;
+}
+.open-post__column > img {
+  height: 120px;
+  width: 120px;
+  border-radius: 10px;
+}
+
+.open-post__span {
+  height: 25px;
+  width: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  border-radius: 30px;
+  position: absolute;
+  color: white;
+  top: 90px;
+  right: 15px;
+}
+.open-post__span-2 {
+  height: 25px;
+  width: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  border-radius: 30px;
+  position: absolute;
+  color: white;
+  top: 90px;
+  right: 15px;
+}
+.opne-post:last-child {
+  margin-top: -20px;
+}
+.find_icons-icon img {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+.member-one {
+  position: relative;
+}
+.member-two {
+  position: relative;
 }

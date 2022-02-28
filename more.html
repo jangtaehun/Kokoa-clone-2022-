@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find - ZZonDDeok World</title>
+    <title>More - ZZonDDeok World</title>
   </head>
   <body>
     <div class="status-bar">
@@ -24,15 +24,37 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Find</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-sm"></i></span>
+        <span><i class="fa-solid fa-music fa-sm"></i></span>
         <span
-          ><a href="setting.html"><i class="fa-solid fa-gear fa-sm"></i></a>
+          ><a href="setting.html"> <i class="fa-solid fa-gear fa-sm"></i></a>
           <span class="nav__ss badge"></span
         ></span>
       </div>
     </header>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="screenshot/KakaoTalk_20220223_214247198_01.jpg"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">ZZangtae</h4>
+            <div class="more-phon-num">
+              <h6 class="user-component__subtitle">+82-10-1234-1234</h6>
+              <div class="phon-num">!</div>
+            </div>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <i class="fa-regular fa-message fa-2x"></i>
+        </div>
+      </div>
+    </main>
 
     <main class="friends-screen">
       <div class="find__icons">
@@ -50,78 +72,43 @@
         </div>
       </div>
 
-      <div class="find__icons">
+      <div class="find__icons more-screen">
         <div class="find_icons-icon">
           <i class="fa-solid fa-gift fa-3x"></i><span>Gift</span>
         </div>
         <div class="find_icons-icon">
           <i class="fa-solid fa-gamepad fa-3x"></i><span>Game</span>
         </div>
-        <div class="find_icons-icon">
-          <i class="fa-solid fa-bullhorn fa-3x"></i><span>Info</span>
-        </div>
-        <div class="find_icons-icon">
-          <i class="fa-solid fa-circle-question fa-3x"></i><span>Help</span>
-        </div>
+        <div class="find_icons-icon more-screen__no"></div>
+        <div class="find_icons-icon more-screen__no"></div>
       </div>
-      <div class="recommended-friends">
-        <h6 class="recommended-friends__tittle">Recommended Friends</h6>
-        <div class="find__icons recommended-friends__icon">
-          <div class="find_icons-icon">
-            <img src="screenshot/소녀.jpg" /><span>소녀</span>
+      <div class="more-suggestions">
+        <h6 class="more-suggestions__tittle">Sugestions</h6>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <span>소녀</span>
           </div>
-          <div class="find_icons-icon">
-            <img src="screenshot/행성.jpg" /><span>행성</span>
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <span>행성</span>
           </div>
-          <div class="find_icons-icon">
-            <img src="screenshot/우주.jpg" /><span>우주</span>
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <span>우주</span>
           </div>
-          <div class="find_icons-icon">
-            <img src="screenshot/홍설.jpg" /><span>홍설</span>
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <span>홍설</span>
           </div>
-        </div>
-      </div>
-      <div class="open-chat__header">
-        <h4>Open Chat</h4>
-        <span
-          >Go to Openchat Home <i class="fa-solid fa-chevron-right fa-xs"></i
-        ></span>
-      </div>
-      <div class="opne-post">
-        <div class="open-post__column">
-          <h5 class="open-post__title">#BTS</h5>
-          <h6 class="open-post__tag">bts army</h6>
-          <div class="member">
-            <img src="screenshot/KakaoTalk_20220223_214247198_01.jpg" />
-            <span class="open-post__member">802 members</span>
-            <div class="divider"></div>
-            <span class="active">Active</span>
-          </div>
-        </div>
-        <div class="open-post__column member-one">
-          <img src="screenshot/예쁜떡.jpg" />
-          <span class="open-post__span"
-            ><i class="fa-solid fa-heart"></i>326</span
-          >
-        </div>
-      </div>
-
-      <div class="opne-post">
-        <div class="open-post__column">
-          <h5 class="open-post__title">#BTS</h5>
-          <h6 class="open-post__tag">bts army</h6>
-          <div class="member">
-            <img src="screenshot/KakaoTalk_20220223_214247198_01.jpg" />
-            <span class="open-post__member">802 members</span>
-            <div class="divider"></div>
-            <span class="active">Active</span>
-          </div>
-        </div>
-        <div class="open-post__column member-two">
-          <img src="screenshot/예쁜떡.jpg" />
-          <span class="open-post__span open-post__span-2"
-            ><i class="fa-solid fa-heart"></i>326</span
-          >
         </div>
       </div>
     </main>
@@ -143,7 +130,9 @@
         </li>
 
         <li class="nav__li">
-          <a class="nav__a" href="#"><i class="fas fa-search fa-2x"></i></a>
+          <a class="nav__a" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
         </li>
 
         <li class="nav__li">
