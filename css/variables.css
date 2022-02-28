@@ -3,3 +3,22 @@
   --horizontal-space: 25px;
   --main-border: 2px solid rgba(0, 0, 0, 0.2);
 }
+
+#no-mobile {
+  position: absolute;
+  z-index: 99;
+  height: 125vh;
+  width: 100vw;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  font-size: 32px;
+}
+
+@media screen and (max-width: 645px) {
+  #no-mobile {
+    display: none;
+  }
+}
