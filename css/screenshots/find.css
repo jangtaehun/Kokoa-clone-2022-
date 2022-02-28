@@ -113,3 +113,22 @@
 .member-two {
   position: relative;
 }
+
+.open-post__span .fa-heart:hover {
+  will-change: transform;
+  animation: heartbeat 1s ease-in-out infinite;
+}
+@keyframes heartbeat {
+  0% {
+    transform: none
+    color: white;
+  }
+  50% {
+    transform: scale(3);
+    color: #ffb0e0;
+  }
+  100% {
+    color: white;
+    transform: none
+  }
+}

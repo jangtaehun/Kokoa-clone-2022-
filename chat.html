@@ -5,9 +5,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Setting - ZZonDDeok World</title>
+    <title>Chat with ZZonDDeok - ZZonDDeok World</title>
   </head>
-  <body>
+  <body class="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -35,7 +35,80 @@
         <i class="fa-solid fa-bars fa-2x"></i>
       </div>
     </header>
-    <main class="friends-screen"></main>
+    <main class="friends-screen main-chat">
+      <div class="chat__timestamp">Tuesday, March 1, 2022</div>
+
+      <!--한번만 말할 떄-->
+      <div class="message-row">
+        <img src="screenshot/예쁜떡.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">ZZonDDeok</span>
+          <div class="message__info">
+            <spna class="message__bubble">Hi!</spna>
+            <span class="message__time">21:20</span>
+          </div>
+        </div>
+      </div>
+
+      <!--내가 말할 때-->
+      <div class="message-row message-own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <spna class="message__bubble">Hi!! Kimzzonddeok!!</spna>
+            <span class="message__time">21:20</span>
+          </div>
+        </div>
+      </div>
+
+      <!--연속으로 말할 때-->
+      <div class="message-row">
+        <img src="screenshot/예쁜떡.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">ZZonDDeok</span>
+          <div class="message__info">
+            <spna class="message__bubble">Hi!</spna>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row__talk">
+        <div class="message-row__content">
+          <div class="message__info">
+            <spna class="message__bubble message-row__talk__bubble">Hi!</spna>
+            <span class="message__time">21:20</span>
+          </div>
+        </div>
+      </div>
+      <!--여기까지-->
+      <!--내가 연속으로 말할 때-->
+      <div class="message-row message-own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <spna class="message__bubble">위</spna>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-own message-own__talk">
+        <div class="message-row__content">
+          <div class="message__info">
+            <spna class="message__bubble">아래</spna
+            ><span class="message__time">21:20</span>
+          </div>
+        </div>
+      </div>
+      <!--여기까지-->
+    </main>
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-solid fa-square-plus fa-2x"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message" />
+        <i class="fa-solid fa-face-smile fa-2x"></i>
+        <button>
+          <i class="fa-solid fa-circle-up"></i>
+        </button>
+      </div>
+    </form>
     <script
       src="https://kit.fontawesome.com/bc619c2e1b.js"
       crossorigin="anonymous"

@@ -10,18 +10,18 @@
   position: absolute;
   top: -25px;
   right: -10px;
-  animation: nav__ss 3s ease-in-out infinite;
+  animation: nav__ss 2s ease-in-out infinite;
 }
 
 @keyframes nav__ss {
   0% {
-    transform: rotateY(90deg);
+    transform: none;
   }
   50% {
-    transform: rotateY(0deg);
+    transform: translateY(-10px);
   }
   100% {
-    transform: rotateY(90deg);
+    transform: none;
   }
 }
 
